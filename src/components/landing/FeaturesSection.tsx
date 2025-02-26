@@ -40,9 +40,9 @@ const FeaturesSection = ({
 }: FeaturesSectionProps) => {
   return (
     <section className="w-full py-24 bg-[#01021a] text-[#8a6c6c]">
-      <div className="container mx-auto px-4 text-[#ffffff]">
+      <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">{title}</h2>
+          <h2 className="text-4xl font-bold mb-4 text-[#ffffff]">{title}</h2>
           <p className="text-muted-foreground text-lg">{subtitle}</p>
         </div>
 
